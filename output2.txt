@@ -1,0 +1,34 @@
+0	22	0.31,41.0,80.18,12.68	129,131,135,137,139,141,145,149,151,153,155,157,159,163,165,167,169,171,173,175,177,179	Male,Senior,Average,Low
+1	27	0.48,61.40,54.88,51.03	41,54,58,61,63,64,65,68,71,73,74,75,81,83,87,90,91,103,105,107,108,109,110,111,117,118,120	Male,Senior,Average,Medium
+2	21	0.52,22.38,57.85,51.71	59,62,66,69,76,79,85,88,89,92,96,98,100,101,104,106,112,114,115,116,121	Female,Junior,Average,Medium
+3	21	0.61,44.14,25.14,19.52	1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,45	Female,Senior,Poor,Low
+4	32	0.53,32.62,80.37,82.93	124,126,128,130,132,134,136,138,140,142,144,146,148,150,152,154,156,158,160,162,164,166,168,170,172,174,176,178,180,182,184,186	Female,Adult,Average,High
+5	22	0.68,41.72,45.90,48.09	43,44,47,48,49,50,51,52,53,55,56,57,60,67,70,72,77,78,80,82,84,86	Female,Senior,Poor,Medium
+6	22	0.59,25.27,25.72,79.36	2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,46	Female,Junior,Poor,Medium
+7	7	0.57,33.0,114.71,78.42	188,190,192,194,196,198,200	Female,Adult,Rich,Medium
+8	10	0.7,41.0,109.7,22.0	181,183,185,187,189,191,193,195,197,199	Female,Senior,Rich,Low
+9	16	0.75,40.87,67.18,41.25	93,94,95,97,99,102,113,119,122,123,125,127,133,143,147,161	Female,Adult,Average,Medium
+
+
+
+Gender: We have represented Male with 0 and Female with 1. So, 0.5 is the correct division for the labelling.
+Male <= 0.5
+Female > 0.5
+
+Age: Range is between 18 to 60. Based on the Common age grouping, labelling them as Junior, Adult and Senior.
+Junior < 25
+25=< Adult < 40
+Senior  >= 40
+
+Income: 35%, 45% and 10%. I have used this distribution because in general there are less people in top of the chain.
+Poor < 50
+50 <= Average < 85
+Rich >= 90
+
+Spending: Following the Income trend.
+Low < 40
+40 <= Medium < 80
+High >= 82
+
+
+Remarks: After labelling we can see that there are many catagories in the Female gender compared to Male Gender.
