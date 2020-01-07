@@ -1,0 +1,5 @@
+The top 3 results similar are:	
+Female,Junior,Poor,Medium	
+Female,Junior,Average,Medium	
+Female,Junior,Average,Medium	
+Ans with majority voting is : ['Female', 'Junior', 'Average', 'Medium']	

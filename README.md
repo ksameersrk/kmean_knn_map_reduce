@@ -20,3 +20,7 @@
 - `preprocess3.py` - The preprocessing script to preprae the input for the problem 3. Combining the `input1.txt`
 and the labels.
 - `input3.txt` - The input to knn algorithm.
+- `driver3.py` - The hadoop job starter file. This will keep count of iterations and check for centroids convergence.
+- `mapper3.py` - mapper file
+- `reducer3.py` - reducer file and *LOGIC TO DO MAX VOTING AND ANALYZE RESULT*.
+- `output3.txt` - result written by the reducer.
