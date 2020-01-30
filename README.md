@@ -1,8 +1,6 @@
  BDS Assignment 2
 ---
 
-## Author - Sameer Kulkarni - 2018ID04515
-
 ## Solutions
 
 #### Solution to Question1:
